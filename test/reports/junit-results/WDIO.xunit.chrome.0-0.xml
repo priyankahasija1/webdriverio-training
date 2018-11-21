@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="navigating_to_contact_us_page" timestamp="2018-11-14T20:42:20" time="11.36" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="a79b066295cc4fc068305ff7e32c9539"/>
+      <property name="suiteName" value="navigating to contact-us page"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.navigating to contact-us page" name="should allow user to navigating contact-us page " time="11.349">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9b4a14cada76b7e3c702f4ea1f003d35/url - {"url":"http://www.phptravels.net/contact-us"}
+RESULT: {"sessionId":"9b4a14cada76b7e3c702f4ea1f003d35","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9b4a14cada76b7e3c702f4ea1f003d35/element - {"using":"xpath","value":"//div/h3[contains(., \"Contact Us\")]"}
+RESULT: {"sessionId":"9b4a14cada76b7e3c702f4ea1f003d35","status":0,"value":{"ELEMENT":"0.7549045082002868-1"}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/9b4a14cada76b7e3c702f4ea1f003d35/element/0.7549045082002868-1/displayed - {}
+RESULT: {"sessionId":"9b4a14cada76b7e3c702f4ea1f003d35","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9b4a14cada76b7e3c702f4ea1f003d35/element - {"using":"xpath","value":"//div/h3[contains(., \"Contact Us\")]"}
+RESULT: {"sessionId":"9b4a14cada76b7e3c702f4ea1f003d35","status":0,"value":{"ELEMENT":"0.7549045082002868-1"}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/9b4a14cada76b7e3c702f4ea1f003d35/element/0.7549045082002868-1/text - {}
+RESULT: {"sessionId":"9b4a14cada76b7e3c702f4ea1f003d35","status":0,"value":"Contact Us"}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9b4a14cada76b7e3c702f4ea1f003d35/element - {"using":"xpath","value":"//div/h3[contains(., \"Contact Us\")]"}
+RESULT: {"sessionId":"9b4a14cada76b7e3c702f4ea1f003d35","status":0,"value":{"ELEMENT":"0.7549045082002868-1"}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/9b4a14cada76b7e3c702f4ea1f003d35/element/0.7549045082002868-1/text - {}
+RESULT: {"sessionId":"9b4a14cada76b7e3c702f4ea1f003d35","status":0,"value":"Contact Us"}
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/9b4a14cada76b7e3c702f4ea1f003d35 - {}
+RESULT: {"sessionId":"9b4a14cada76b7e3c702f4ea1f003d35","status":0,"value":null}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
